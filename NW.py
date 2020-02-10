@@ -1,8 +1,4 @@
-# NW.py
-# HW1, Computational Genomics, Spring 2020
-# andrewid: slevineg
 
-# WARNING: Do not change the file name; Autograder expects it.
 import sys
 import numpy as np
 
