@@ -1,9 +1,4 @@
 # BWT.py
-# HW1, Computational Genomics, Spring 2020
-# andrewid: slevineg
-
-# WARNING: Do not change the file name, or the function signatures below.
-# Autograder expects these names exactly.
 
 def rle(s):
     """Run Length Encoder
