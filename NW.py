@@ -21,14 +21,9 @@ def ReadFASTA(filename):
     fp.close()
     return Sequences
 
-# You may define any helper functions for Needleman-Wunsch algorithm here
+# helper functions for Needleman-Wunsch algorithm here
 
 
-# def Score(char1,char2): 
-#     if char1 == char2:
-#         return 0 #match
-    
-#     return -2 #mismatch
 
 def score_chars(char1,char2): 
     if char1 == char2:
@@ -111,7 +106,7 @@ def traceback(F, seq1, seq2):
 
 
 
-# Do not change this function signature
+# main function signature
 def needleman_wunsch(seq1, seq2):
     """Find the global alignment for seq1 and seq2
     Returns: a string of three lines like so:
